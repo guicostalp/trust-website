@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "./components/Navbar";
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Switch, Route} from 'react-router-dom'
 import './App.css'
 import Home from './components/pages/Home'
 import Services from "./components/pages/Services";
@@ -8,6 +8,10 @@ import Products from "./components/pages/Products";
 import SignUp from "./components/pages/Donate";
 
 function App() {
+
+  useEffect(() => {
+    document.title = "Trust";
+  }, []);
 
   return (
     <>
