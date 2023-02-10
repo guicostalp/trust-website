@@ -29,15 +29,15 @@ window.addEventListener('resize', showButton);
     <>
         <nav className='navbar'>
             <div className='navbar-container'>
-                <Link to="/home" className='navbar-logo' onClick={closeMobileMenu}>
-                    <p>Tiaki</p><p>Taonga</p><p>Trust</p><i className='fab fa-typo3' />
+                <Link to="/" className='navbar-logo' onClick={closeMobileMenu}>
+                    <img src='/logo.png'></img><p>Tiaki</p><p>Taonga</p><p>Trust</p>
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
-                        <Link to='/home' className='nav-links' onClick={closeMobileMenu}>
+                        <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                             Home
                         </Link>
                     </li>
@@ -53,7 +53,7 @@ window.addEventListener('resize', showButton);
                     </li>
                     <li className='nav-item'>
                         <Link to='/donate' className='nav-links-mobile' onClick={closeMobileMenu}>
-                            Sign Up
+                            Donate
                         </Link>
                     </li>
                 </ul>

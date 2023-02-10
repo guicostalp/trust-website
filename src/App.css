@@ -7,7 +7,7 @@
   
   .home,
   .events,
-  .products,
+  .about-us,
   .donate {
     display: flex;
     height: 90vh;
@@ -25,8 +25,8 @@
     font-size: 100px;
   }
   
-  .products {
-    background-image: url('../public/images/img-9.jpg');
+  .about-us {
+    background-image: url('../public/images/img-3.jpg');
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
