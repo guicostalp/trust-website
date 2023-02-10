@@ -6,9 +6,9 @@
   }
   
   .home,
-  .services,
+  .events,
   .products,
-  .sign-up {
+  .donate {
     display: flex;
     height: 90vh;
     align-items: center;
@@ -16,7 +16,7 @@
     font-size: 3rem;
   }
   
-  .services {
+  .events {
     background-image: url('../public/images/img-2.jpg');
     background-position: center;
     background-size: cover;
@@ -26,7 +26,7 @@
   }
   
   .products {
-    background-image: url('../public/images/img-4.jpg');
+    background-image: url('../public/images/img-9.jpg');
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
@@ -34,7 +34,7 @@
     font-size: 100px;
   }
   
-  .sign-up {
+  .donate {
     background-image: url('../public/images/img-9.jpg');
     background-position: center;
     background-size: cover;

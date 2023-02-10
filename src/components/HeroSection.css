@@ -9,7 +9,7 @@ video {
 
 .hero-container {
 
-    /* background: url('../../public/images/img-home.jpg') center center/cover no-repeat; */
+    background: url('../../public/images/img-home.jpg') center center/cover no-repeat;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -25,7 +25,8 @@ video {
     color: #fff;
     font-size: 100px;
     text-align: center;
-    margin-top: -100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     border: 3px solid white;
     padding: 20px;
 

@@ -29,7 +29,7 @@ window.addEventListener('resize', showButton);
     <>
         <nav className='navbar'>
             <div className='navbar-container'>
-                <Link to="/" className='navbar-logo' onClick={closeMobileMenu}>
+                <Link to="/home" className='navbar-logo' onClick={closeMobileMenu}>
                     <p>Tiaki</p><p>Taonga</p><p>Trust</p><i className='fab fa-typo3' />
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
@@ -37,27 +37,27 @@ window.addEventListener('resize', showButton);
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
-                        <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                        <Link to='/home' className='nav-links' onClick={closeMobileMenu}>
                             Home
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
-                            Service
+                        <Link to='/events' className='nav-links' onClick={closeMobileMenu}>
+                            Events
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/products' className='nav-links' onClick={closeMobileMenu}>
-                            Products
+                        <Link to='/about-us' className='nav-links' onClick={closeMobileMenu}>
+                            About Us
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
+                        <Link to='/donate' className='nav-links-mobile' onClick={closeMobileMenu}>
                             Sign Up
                         </Link>
                     </li>
                 </ul>
-                {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+                {button && <Button buttonStyle='btn--outline'>DONATE</Button>}
             </div>
         </nav>
 
