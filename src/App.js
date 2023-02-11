@@ -7,6 +7,7 @@ import Events from "./components/pages/Events";
 import AboutUs from "./components/pages/AboutUs";
 import Donate from "./components/pages/Donate";
 
+
 function App() {
 
   useEffect(() => {
@@ -26,6 +27,7 @@ function App() {
     <>
       <Router>
         <Navbar />
+
 
         <Routes>
           <Route exact path='/' element={<Home />} />

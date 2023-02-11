@@ -3,6 +3,7 @@ import '../../App.css'
 import Cards from '../Cards';
 import Footer from '../Footer';
 import HeroSection from '../HeroSection'
+import ContactUs from '../ContactUs';
 
 
 function Home () {
@@ -10,6 +11,7 @@ function Home () {
         <>
             <HeroSection />
             <Cards />
+            <ContactUs />
             <Footer />
 
         </>
