@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div className='footer-container'>
         <section className='footer-subscription'>
-            <p className='footer-subscription-heading'>Join the Aventure newsletter to receive our best vacation deals</p>
+            <p className='footer-subscription-heading'>Join the Tiaki Taonga newsletter to receive our super exciting news!</p>
             <p className='footer-subscription-text'>You can unsubscibe at any time.</p>
             <div className='input-areas'>
                 <form>
