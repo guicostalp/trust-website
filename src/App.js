@@ -30,7 +30,7 @@ function App() {
 
 
         <Routes>
-          <Route exact path='/ttt-website/' element={<Home />} />
+          <Route exact path='/trust-website/' element={<Home />} />
           <Route path='/events' element={<Events />} />
           <Route path='/about-us' element={<AboutUs />} />
           <Route path='/donate' element={<Donate />} />
