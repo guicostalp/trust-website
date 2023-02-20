@@ -30,7 +30,7 @@ window.addEventListener('resize', showButton);
         <nav className='navbar'>
             <div className='navbar-container'>
                 <Link to="/trust-website/" className='navbar-logo' onClick={closeMobileMenu}>
-                    <img src='/public/logo.png'></img><p>Tiaki</p><p>Taonga</p><p>Trust</p>
+                    <img src='./ttt-logo.png'></img><p>Tiaki</p><p>Taonga</p><p>Trust</p>
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
