@@ -22,7 +22,7 @@ function Footer() {
                         className='footer-input'
                     />
                     {/* <Button buttonStyle='btn--outline'>Subscribe</Button> */}
-                    <button className='button'>Click</button>
+                    <button className='button'>Subscribe</button>
                 </form>
 
             </div>
@@ -41,7 +41,7 @@ function Footer() {
                         <box-icon type="logo" name="twitter" color="#fff"></box-icon>
                     </a>
                 </div>
-                <p className="footer__copyright">&#169; 2023 copyright all right reserved</p>
+                <p className="footer__copyright">&#169; 2023 copyright all rights reserved</p>
             </div>
         </div>
     </div>

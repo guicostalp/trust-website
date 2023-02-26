@@ -43,3 +43,11 @@
     font-size: 100px;
   }
 
+
+  @media screen and (max-width: 960px) {
+
+    .hero-container > p {
+      text-align: center;
+    }
+
+  }

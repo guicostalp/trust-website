@@ -83,3 +83,11 @@
 
 }
 
+@media screen and (max-width: 960px) {
+
+    .footer__data > h2 {
+      text-align: center;
+    }
+
+  }
+

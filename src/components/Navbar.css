@@ -1,6 +1,6 @@
 .navbar {
     background: #3a5a40;
-    height: 80px;
+    height: 120px; /*80px*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +21,7 @@
   .navbar-logo {
     color: #fff;
     justify-self: start;
-    margin-left: 20px;
+    margin-left: 10px;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
@@ -32,7 +32,7 @@
 
   .navbar-logo > img {
 
-    height: 55px;
+    height: 110px; /*55px*/
 
   }
   
@@ -88,6 +88,15 @@
     }
 
 
+
+    .navbar-logo > p {
+
+      display: none;
+      color: black;
+
+    }
+
+
     .nav-menu {
       display: flex;
       flex-direction: column;
@@ -101,7 +110,8 @@
     }
   
     .nav-menu.active {
-      background: #242222;
+      background: #3a5a40;
+      margin-top: 40px;
       justify-content: flex-start;
       left: 0;
       opacity: 1;
@@ -128,13 +138,17 @@
       font-size: 1.5rem;
 
     }
-  
+    
+
+
     .menu-icon {
       display: block;
       position: absolute;
+      justify-self: center;
+
       top: 0;
       right: 0;
-      transform: translate(-100%, 60%);
+      transform: translate(-100%, 100%);
       font-size: 1.8rem;
       cursor: pointer;
     }
