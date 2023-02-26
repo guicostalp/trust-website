@@ -1,15 +1,19 @@
-import React from 'react'
-import {Link} from 'react-router-dom';
-import { Button } from './Button'
-import './Footer.css'
+import React from 'react';
+import './Footer.css';
+import 'boxicons';
 
 function Footer() {
   return (
     <div className='footer-container'>
-        <section className='footer-subscription'>
-            <p className='footer-subscription-heading'>Join the Tiaki Taonga newsletter to receive our super exciting news!</p>
-            <p className='footer-subscription-text'>You can unsubscibe at any time.</p>
-            <div className='input-areas'>
+
+        <div className='footer-section'>
+            {/* section 1 */}
+
+            <div className="footer__data">
+                
+                <h2 className='footer__title'>
+                    Join the Tiaki Taonga newsletter to receive our super exciting news!
+                </h2>
                 <form>
                     <input 
                         type='email'
@@ -17,21 +21,29 @@ function Footer() {
                         placeholder='Your Email'
                         className='footer-input'
                     />
-                    <Button buttonStyle='btn--outline'>Subscribe</Button>
+                    {/* <Button buttonStyle='btn--outline'>Subscribe</Button> */}
+                    <button className='button'>Click</button>
                 </form>
-            </div>
-        </section>
-        <div className='footer-links'>
-            <div className='footer-link-wrapper'>
-                <div className='footer-link-items'>
-                    <h2>
-                        <Link to='/sign-up'>How it works</Link>
 
-                    </h2>
+            </div>
+
+            {/* Icons section 3 */}
+            <div className="footer__data">
+                <h2 className="footer__title">Follow us!</h2>
+                <div className='footer-icons'>
+                    <a href="https://www.facebook.com/" className="footer__social">
+                        <box-icon type="logo" name="facebook" color="#fff" className="icon"></box-icon>
+                    </a>
+                    <a href="https://www.instagram.com/" className="footer__social">
+                        <box-icon type="logo" name="instagram" color="#fff"></box-icon>
+                    </a>
+                    <a href="https://www.twitter.com/" className="footer__social">
+                        <box-icon type="logo" name="twitter" color="#fff"></box-icon>
+                    </a>
                 </div>
+                <p className="footer__copyright">&#169; 2023 copyright all right reserved</p>
             </div>
         </div>
-
     </div>
   )
 }

@@ -86,7 +86,8 @@
     .NavbarItems {
       position: relative;
     }
-  
+
+
     .nav-menu {
       display: flex;
       flex-direction: column;
@@ -121,8 +122,10 @@
       border-radius: 0;
     }
   
+    
     .navbar-logo {
       position: absolute;
+      font-size: 1.5rem;
 
     }
   
