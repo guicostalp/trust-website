@@ -1,4 +1,80 @@
-.contact-us-container {
+.contact-form-container{
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+    background-color: rgb(230, 230, 230);
+    color: #3a5a40;
+}
 
-    height: 50px;
+.form-box{
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form-title{
+    font-size: 30px;
+    padding-bottom: 35px;
+}
+
+.right-container-title{
+    font-size: 55px;
+    margin-bottom: 35px;
+}
+
+.right-container-para{
+    width: 70%;
+    font-size: 25px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+label{
+    font-weight: 600;
+}
+
+.message-area{
+    resize: none;
+}
+
+.form-submit-btn{
+    font-size: 20px;
+    padding: 10px;
+    background-color: #3a5a40;
+    border: 1px solid white;
+    color: #f1f1f1;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.form-submit-btn:hover{
+    color: #3a5a40;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+}
+
+.form-address{
+    width: 80%;
+}
+
+span{
+    font-weight: 800;
+}
+
+.form-data .form-address{
+    font-weight: 500;
 }

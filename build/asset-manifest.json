@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/trust-website/static/css/main.020877a7.css",
-    "main.js": "/trust-website/static/js/main.4505cb91.js",
+    "main.css": "/trust-website/static/css/main.934b4fe1.css",
+    "main.js": "/trust-website/static/js/main.1ebf4510.js",
     "static/media/img-2.jpg": "/trust-website/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
+    "static/media/duskfall-crew-vIQfQjrovW8-unsplash.jpg": "/trust-website/static/media/duskfall-crew-vIQfQjrovW8-unsplash.87ec02aeb5a87e14dccf.jpg",
+    "static/media/meg-jerrard-u7lgJ8qrdAM-unsplash.jpg": "/trust-website/static/media/meg-jerrard-u7lgJ8qrdAM-unsplash.6901f959dcb98fa67ff7.jpg",
     "static/media/img-3.jpg": "/trust-website/static/media/img-3.6d683c0ee6824af7961a.jpg",
     "static/media/img-home.jpg": "/trust-website/static/media/img-home.c034239ee9a63564602b.jpg",
     "static/media/img-9.jpg": "/trust-website/static/media/img-9.f97f588f3670715d01b2.jpg",
+    "static/media/Discovering-New-Zealands-Maori-Culture-_-Image-Via-Trafalgar-800x450.jpg": "/trust-website/static/media/Discovering-New-Zealands-Maori-Culture-_-Image-Via-Trafalgar-800x450.334478a85ded355a25bd.jpg",
     "index.html": "/trust-website/index.html",
-    "main.020877a7.css.map": "/trust-website/static/css/main.020877a7.css.map",
-    "main.4505cb91.js.map": "/trust-website/static/js/main.4505cb91.js.map"
+    "main.934b4fe1.css.map": "/trust-website/static/css/main.934b4fe1.css.map",
+    "main.1ebf4510.js.map": "/trust-website/static/js/main.1ebf4510.js.map"
   },
   "entrypoints": [
-    "static/css/main.020877a7.css",
-    "static/js/main.4505cb91.js"
+    "static/css/main.934b4fe1.css",
+    "static/js/main.1ebf4510.js"
   ]
 }

@@ -1,63 +1,40 @@
-import React, { useState } from 'react'
-import  { useRef } from 'react'
-import './ContactUs.css'
-import emailjs from 'emailjs-com'
+import React from 'react';
+import './ContactUs.css';
 
-const Result = () => {
+function ContactForm() {
+  return (
+    <div className='contact-form-container'>
+      <div className='form-box'>
+        <div className='right-container'>
+          <h2 className='right-container-title'>Get in touch!</h2>
+          <p className='right-container-para'>We are open for any suggestion or just to have a chat. Leave a message and we will return as soon as possible!</p>
+
+        </div>
+
+        <div className='left-container'>
+
+          <section className='contact-form-section'>
+            <label className='contact-labels'>Full Name</label>
+            <input type='text' className='input-name' placeholder='Enter your name'></input>
+    
+            <label className='contact-labels'>E-mail</label>
+            <input type='text' className='input-email' placeholder='Enter your email'></input>
+    
+            <label className='contact-labels'>Message</label>
+            <textarea type='text' className='message-area' cols='50' rows='10' placeholder='Type your message' />
+          </section>
+    
+          <button className='form-submit-btn'>Submit Message</button>
+        </div>
   
-  return (
-    <p>Your Message has been suscessfully sent</p>
+          
 
-  )
-
-}
-
-export default function ContactUs() {
-  const [result,showResult] = useState (false);
-
-  const form = useRef();
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs.sendForm('service_83zj1r4', 'template_4pyqarh', form.current, 'ZzJOCnFBiSowZgAac')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-
-      e.target.reset();
-      showResult(true)
-  };
-
-  return (
-    <form action='' onSubmit={sendEmail}>
-      <div className='formWord'>
-        <h2>Say Hello</h2>
-        <span>Full Name</span>
-        <br/>
-        <input className="input100" type="text" name='from_name' required />
-        <br />
-        <span>Phone number (Optional)</span>
-        <br />
-        <input className="input100" type="text" name='phone' />
-        <br />
-        <span>Enter Email</span>
-        <br />
-        <input className="input100" type="text" name='email' required />
-        <br />
       </div>
-
-      <div className='formWord'>
-          <span>Message</span>
-          <br />
-          <textarea name='message' required></textarea>
-          <br />
-          <button>Submit</button>
-          <div className='row'>
-            {result ? <Result /> : null}
-          </div>
-      </div>
-    </form>
+      
+      
+    </div>
+    
   )
 }
+
+export default ContactForm
